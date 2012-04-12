@@ -67,13 +67,6 @@
                 </dependencies>
             </plugin>
             <plugin>
-                <artifactId>findbugs-maven-plugin</artifactId>
-                <version>2.3.4</version>
-                <configuration>
-                    <xmlOutput>true</xmlOutput>
-                </configuration>
-            </plugin>
-            <plugin>
                 <artifactId>maven-release-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
@@ -88,15 +81,6 @@
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>sonar-maven-plugin</artifactId>
                 <version>1.0-beta-2</version>
-            </plugin>
-            <plugin>
-                <groupId>org.codehaus.mojo</groupId>
-                <artifactId>findbugs-maven-plugin</artifactId>
-                <version>2.3.2</version>
-                <configuration>
-                    <effort>Max</effort>
-                    <xmlOutput>true</xmlOutput>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.easyb</groupId>
@@ -290,15 +274,6 @@
                                         <ignoreIdentifiers>true</ignoreIdentifiers>
                                     </configuration>
                                 </plugin>
-                                <plugin>
-                                    <groupId>org.codehaus.mojo</groupId>
-                                    <artifactId>findbugs-maven-plugin</artifactId>
-                                    <version>2.3.2</version>
-                                    <configuration>
-                                        <effort>Max</effort>
-                                        <xmlOutput>true</xmlOutput>
-                                    </configuration>
-                                </plugin>
                             </reportPlugins>
                         </configuration>
                         <dependencies>
@@ -386,15 +361,6 @@
                         <configuration>
                             <configLocation>gameoflife-build/checkstyle.xml
                             </configLocation>
-                        </configuration>
-                    </plugin>
-                    <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>findbugs-maven-plugin</artifactId>
-                        <version>2.3</version>
-                        <configuration>
-                            <effort>Max</effort>
-                            <xmlOutput>true</xmlOutput>
                         </configuration>
                     </plugin>
                     <plugin>
